@@ -64,32 +64,52 @@
     <h5>1.4 Secteur d'activités</h5>
     <form action="">
     <!-- Liste déroulante -->
-    <div>
-        <select id="activite" name="activite" onchange="checkAutre(this)">
-            <option value=""><em>Sélectionnez une activité</em></option>
-            <option value="Agriculture">Agriculture</option>
-            <option value="Industrie">Industrie</option>
-            <option value="Construction">Construction</option>
-            <option value="Commerce">Commerce</option>
-            <option value="Transport">Transport</option>
-            <option value="Information et Communication">Information et Communication</option>
-            <option value="Finance et Assurance">Finance et Assurance</option>
-            <option value="Immobilier">Immobilier</option>
-            <option value="Services professionnels">Services professionnels</option>
-            <option value="Administration publique">Administration publique</option>
-            <option value="Education">Éducation</option>
-            <option value="Santé">Santé</option>
-            <option value="Arts et Loisirs">Arts et Loisirs</option>
-            <option value="Autre">Autre</option>
-        </select>
-    </div>
+        <div>
+            <select id="activite" name="activite" onchange="checkAutre(this)">
+                <option value=""><em>Sélectionnez une activité</em></option>
+                <option value="Agriculture">Agriculture</option>
+                <option value="Industrie">Industrie</option>
+                <option value="Construction">Construction</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Transport">Transport</option>
+                <option value="Information et Communication">Information et Communication</option>
+                <option value="Finance et Assurance">Finance et Assurance</option>
+                <option value="Immobilier">Immobilier</option>
+                <option value="Services professionnels">Services professionnels</option>
+                <option value="Administration publique">Administration publique</option>
+                <option value="Education">Éducation</option>
+                <option value="Santé">Santé</option>
+                <option value="Arts et Loisirs">Arts et Loisirs</option>
+                <option value="Autre">Autre</option>
+            </select>
+        </div>
 
-    <!-- Zone de texte cachée par défaut -->
-    <div id="autreActiviteDiv" style="display: none;">
-        <label for="autreActivite">Veuillez préciser votre secteur d'activité:</label>
-        <input type="text" id="autreActivite" name="autreActivite">
-    </div>
+        <!-- Zone de texte cachée par défaut -->
+        <div id="autreActiviteDiv" style="display: none;">
+            <label for="autreActivite">Veuillez préciser votre secteur d'activité:</label>
+            <input type="text" id="autreActivite" name="autreActivite">
+        </div>
 </form>
+
+<h6>1.4.1 Education</h6>
+    <form action="">
+    <!-- Liste déroulante -->
+        <div>
+            <select id="activite" name="activite" onchange="checkAutre(this)">
+                <option value=""><em>Sélectionnez une activité</em></option>
+                <option value="Agriculture">Etudiant</option>
+                <option value="Industrie">Chercheur</option>
+                <option value="Construction">Professeur</option>
+                <option value="Commerce">Autre</option>
+            </select>
+        </div>
+
+        <!-- Zone de texte cachée par défaut -->
+        <div id="autreActiviteDiv" style="display: none;">
+            <label for="autreActivite">Veuillez préciser votre secteur d'activité:</label>
+            <input type="text" id="autreActivite" name="autreActivite">
+        </div>
+    </form>
 
 <h5>1.5 Catégories de profils professionnels</h5>
 <form action="">
