@@ -1,0 +1,36 @@
+form {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+#autreActiviteDiv{
+    display: none;
+}
+#autreProfilDiv{
+    display: none;
+}
