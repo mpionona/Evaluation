@@ -176,6 +176,11 @@
                 <option value="AutreMotif">Autre</option>
             </select>
         </div>
+        <!-- Zone de texte pour autre principal motif d'utilisation -->
+        <div id="AutreMotifDiv" style="display: none;">
+            <label for="autreProfil">Veuillez préciser votre principal motif d'utilisation:</label>
+            <input type="text" id="autreProfil" name="autreProfil">
+        </div>
     </form>
     <h2>3. Facilité d'utilisation</h2>
     <form action="" method="" id="">
